@@ -5,3 +5,4 @@
 ## Getting Started
 
 * [What's UCT?](getting-started/whats-uct.md)
+* [Installation](getting-started/installation.md)
