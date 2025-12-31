@@ -24,4 +24,4 @@ layout:
 
 Welcome to the official [UncomplicatedCustomTeams](https://github.com/UncomplicatedCustomServer/UncomplicatedCustomTeams) documentation page. Here you will learn how the plugin works and how to use it.
 
-**THIS** wiki version is based on version `1.5.0`. Things features from previous versions may not be included!
+**THIS** wiki version is based on version `1.6.0`. Things features from previous versions may not be included!

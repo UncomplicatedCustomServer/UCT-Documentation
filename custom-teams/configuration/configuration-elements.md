@@ -1,5 +1,5 @@
 ---
-icon: ellipsis-vertical
+icon: gear-complex
 ---
 
 # Configuration elements
@@ -11,7 +11,7 @@ We'll always reference to the main YAML configuration given at the [Configuratio
 ## Role ID
 
 **Configuration element name:** `id` \
-**Type:** `UInt32`
+**Type:** `uint32`
 
 The unique Identifier for your Custom Team.\
 You'll have to use this in order to spawn a players as that Custom Team and to get information about that Custom Team.\
@@ -53,6 +53,11 @@ The chance of spawning of this Custom Team.&#x20;0 is 0% and 100 is 100%.
 
 If set to true, this Custom Team's successful spawn roll will not prevent other Custom Teams with the same SpawnWave from being evaluated.
 
+## Spawn Condition
+
+The **Spawn Condition** configuration parameter has its own object with its own specifications.\
+Please visit [this page](spawn-condition.md) in order to read how to configure it.
+
 ## Is Cassie Announcement Enabled
 
 **Configuration element name:** `is_cassie_annoucement_enabled` \
@@ -81,22 +86,22 @@ The translation of the message spoken by CASSIE.
 
 Should the announcement sound play before the CASSIE message? If false, only the message itself will be sent without the sound.
 
-## Is Team Alive To Win Enabled
+## Win Condition
 
-**Configuration element name:** `is_team_alive_to_win_enabled`\
-**Type:** `bool`
+The **Win Condition** configuration parameter has its own object with its own specifications.\
+Please visit  in order to read how to configure it.
 
+## Sound Paths
 
+The **Sound Paths** configuration parameter has its own object with its own specifications.\
+Please visit  in order to read how to configure it.
 
-## Health
+## Sound Volume
 
-The **Health** configuration parameter has its own object with its own specifications.\
-Please visit [this page](/broken/pages/IuWRXpoRwDljOFO5k9eN#health) in order to read how to configure it.
+**Configuration element name:** `sound_volume` \
+**Type:** `float`
 
-## AHP
-
-The **AHP** configuration parameter has its own object with its own specifications.\
-Please visit [this page](/broken/pages/IuWRXpoRwDljOFO5k9eN#artificial-health-ahp) in order to read how to configure it.
+Volume of played audio files. **VERY VERY IMPORTANT: IF YOU ARE UNSURE IF A VALUE OF 1 IS SUFFICIENT, 99% OF THE TIME IT IS. INCREASING IT MAY CAUSE EARRAPE!!**
 
 ## Hume Shield
 

@@ -12,3 +12,8 @@
 * [First steps](custom-teams/first-steps.md)
 * [Configuration](custom-teams/configuration/README.md)
   * [Configuration elements](custom-teams/configuration/configuration-elements.md)
+  * [Spawn Condition](custom-teams/configuration/spawn-condition.md)
+
+## Syntax
+
+* [Enums](syntax/enums.md)
