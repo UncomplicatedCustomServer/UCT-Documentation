@@ -6,3 +6,9 @@
 
 * [What's UCT?](getting-started/whats-uct.md)
 * [Installation](getting-started/installation.md)
+
+## Custom Teams
+
+* [First steps](custom-teams/first-steps.md)
+* [Configuration](custom-teams/configuration/README.md)
+  * [Configuration elements](custom-teams/configuration/configuration-elements.md)
