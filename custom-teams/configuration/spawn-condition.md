@@ -117,7 +117,7 @@ A list of `RoleTypeId` Enum that must be alive for the Custom Team to spawn.
 **Type: `List<RoleTypeId>`**
 
 Defines which starting roles can be converted into this team. At the start of the round, the plugin will randomly select players from these roles to respawn as Custom Team.\
-**Note:** Requires the Spawn Wave to be set to `RoundStarted`.'
+**Note:** Requires the Spawn Wave to be set to `RoundStarted`.
 
 ## Spawn Delay
 
