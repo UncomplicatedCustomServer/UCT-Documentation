@@ -41,3 +41,21 @@ Below you will find all Enums used in UCT that are necessary for configuration.
 * ScpDeath - Spawns the Custom Team after an SCP dies. This can trigger on a specific SCP or the SCP team generally.
 * TeamDependent - The Custom Team spawn depends on another Custom Team. It can spawn either after the other team spawns or after it is eliminated.
 * AfterGeneratorActivated -Spawns the Custom Team after an SCP-079 Generator is activated.
+
+## Priority
+
+Used for: `Priority`
+
+```yaml
+        None
+        First
+        Second
+        Third
+        Fourth
+        Fifth
+```
+
+#### Explanation:
+
+The priority of assigning Custom Role in the Spawn Wave (First -> Fifth).\
+The lower the value, the higher the priority.

@@ -17,13 +17,11 @@ UCT is compatible with UCR (UncomplicatedCustomRoles); this integration allows r
 
 Since UCT utilizes UCR to register Custom Roles internally, UCT Roles and UCR Roles **must not share the same ID.**
 
-Additionally, UCT fully supports EXILED Custom Roles. You can spawn these roles within a Custom Team simply by inputting the corresponding EXILED Custom Role ID.
-
 ### Folder structure
 
 UCT maintains a straightforward directory structure.
 
-Located at `EXILED/Configs/UncomplicatedCustomTeams/{your-server-port}`, you will find `example-team.yml`, which contains the default Custom Team config.
+Located at `LabAPI/configs/UncomplicatedCustomTeams/{your-server-port}`, you will find `example-team.yml`, which contains the default Custom Team config.
 
 To create new team files in the port folder, you can:
 

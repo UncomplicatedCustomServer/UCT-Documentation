@@ -5,8 +5,8 @@ icon: gear-complex
 # Configuration elements
 
 Here the main configuration elements will be explained.\
-You need to read the whole page in order to create basic Custom Roles with UCR.\
-We'll always reference to the main YAML configuration given at the [Configuration](/broken/pages/upncLbsuFSs6OuLWKQuY) part of this wiki.
+You need to read the whole page in order to create basic Custom Teams with UCT.\
+We'll always reference to the main YAML configuration given at the [Configuration](./) part of this wiki.
 
 ## Role ID
 
@@ -102,7 +102,7 @@ Please visit [this page ](sound-paths.md)in order to read how to configure it.
 **Type:** `float`
 
 Volume of played audio files.\
-**VERY VERY IMPORTANT: IF YOU ARE UNSURE IF A VALUE OF 1 IS SUFFICIENT, 99% OF THE TIME IT IS. INCREASING IT MAY CAUSE EARRAPE!!**
+**VERY VERY IMPORTANT: IF YOU ARE UNSURE IF A VALUE OF 1 IS SUFFICIENT, 99% OF THE TIME IT IS. INCREASING IT MAY CAUSE EARRAPE!**
 
 
 
@@ -110,4 +110,4 @@ Volume of played audio files.\
 
 The UCR configuration section is located below within the Custom Team Config. For configuration instructions, please refer to the [UCR Wiki](https://app.gitbook.com/o/GOLA1dHs7HSH2zbizA76/s/7dNIcOcinWdoZSPkGHCX/).
 
-UCT injects additional options into the UCR Config; to view these specific settings, check here.
+UCT injects additional options into the UCR Config; to view these specific settings, [check here](uct-extensions.md).

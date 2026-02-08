@@ -1,5 +1,5 @@
 ---
-icon: waveform-lines
+icon: circle-ellipsis
 ---
 
 # UCT Extensions
@@ -7,41 +7,51 @@ icon: waveform-lines
 UCT integrates additional options into the configuration, allowing you to manage UCR roles more efficiently directly from the Custom Team Config.\
 With this, you can (for example) set role priority, and UCT will spawn Custom Roles according to that priority (`First` = first, `Fifth` = last)."
 
-## Sound Paths
+## Max Players
 
-The **Sound Paths** object should look like this:
+**Configuration element name:** `max_players`\
+**Type:** `int32`
 
-```yml
-  sound_paths:
-  - path: /path/to/your/ogg/file
-    delay: 0
-```
+Specifies the maximum number of players that can spawn as this Custom Role.
 
-## Path
+## Priority
 
-**Configuration element name:** `path` \
-**Type:**  `string`
+**Configuration element name:** `priority`\
+**Type:**  [#priority](../../syntax/enums.md#priority "mention")
 
-The path to the `.ogg` sound file.\
-Check [#sound-queue](uct-extensions.md#sound-queue "mention") for information on how to create a sound queue.
+The priority of assigning Custom Role in the Spawn Wave (First -> Fifth).\
+The lower the value, the higher the priority.
 
-## Delay
+## Drop Inventory On Death
 
-**Configuration element name:** `delay` \
-**Type:** `float`
+**Configuration element name:** `drop_inventory_on_death` \
+**Type:** `bool`
 
-Delay in seconds before sound starts playing.
+Determines whether items are dropped upon the death of this specific Custom Role.
 
-## Sound Queue
+## Is Godmode Enabled
 
-To create a sound queue, you need to copy the entire Sound Paths content and paste it below. Like this:
+**Configuration element name:** `is_godmode_enabled` \
+**Type:** `bool`\
+\
+<br>
 
-```yml
-  sound_paths:
-  - path: /path/to/your/ogg/file1
-    delay: 0
-  - path: /path/to/your/ogg/file2
-    delay: 0
-  - path: /path/to/your/ogg/file3
-    delay: 0
-```
+Determines whether this Custom Role has God Mode enabled.
+
+## Is Bypass Enabled
+
+**Configuration element name:** `is_bypass_enabled` \
+**Type:** `bool`\
+\
+<br>
+
+Determines whether this Custom Role has Bypass enabled.
+
+## Is Noclip Enabled
+
+**Configuration element name:** `is_noclip_enabled` \
+**Type:** `bool`\
+\
+<br>
+
+Determines whether this Custom Role has Noclip enabled.

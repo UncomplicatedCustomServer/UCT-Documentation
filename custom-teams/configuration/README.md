@@ -6,7 +6,7 @@ icon: person
 
 The configuration of a UCT Custom Team is a simple YAML file where you can manage almost every aspect of the role.
 
-The following link points to the Default Config. Please note that the Default Config file located on your server (`example-team.yml`) includes comments to assist you with the setup process.
+The following link points to the Default Config:
 
 {% embed url="https://github.com/UncomplicatedCustomServer/UncomplicatedCustomTeams/blob/main/UncomplicatedCustomTeams/Resources/DefaultConfig.yml" %}
 
