@@ -28,4 +28,5 @@
   * [Spawning Teams](dev/developers-dream/spawning-teams.md)
   * [Runtime Interaction](dev/developers-dream/runtime-interaction.md)
   * [Events System](dev/developers-dream/events-system.md)
+  * [Spawn Data Extensions](dev/developers-dream/spawn-data-extensions.md)
   * [Helpers & Utilities](dev/developers-dream/helpers-and-utilities.md)

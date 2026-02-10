@@ -8,7 +8,7 @@ Welcome to the **UncomplicatedCustomTeams** API. We have completely refactored t
 
 ***
 
-### 📦 Getting Started
+### Getting Started
 
 To interact with the API, ensure you are using the correct namespaces:
 

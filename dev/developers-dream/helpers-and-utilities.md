@@ -57,6 +57,29 @@ team.BroadcastToMembers(5, "Retreat to Surface!");
 team.BroadcastToMembers(5, "Objective Updated", isHint: true);
 ```
 
+### **Reloading Configuration**
+
+You can trigger a full reload of the plugin configuration programmatically.
+
+```csharp
+// Reloads all UCT configurations
+TeamExtensions.Reload();
+```
+
+**Wave Validation**
+
+Check if a specific `WaveType` requires manual coordinate configuration (Position).
+
+```cs
+// Returns true if the wave requires pos_x/y/z
+bool requiresCoords = TeamExtensions.IsCustomPositionWave(WaveType.RoundStarted); 
+
+if (requiresCoords)
+{
+    // ... logic to ensure coordinates are present
+}
+```
+
 ### &#x20;Metadata System
 
 The **Metadata System** allows you to attach arbitrary data to a running `SummonedTeam` instance. This is perfect for creating objectives without managing your own external Dictionaries.
@@ -142,3 +165,4 @@ public class VipModePlugin
     }
 }
 ```
+

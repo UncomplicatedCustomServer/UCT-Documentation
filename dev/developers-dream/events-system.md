@@ -46,15 +46,22 @@ void OnTeamSpawned(TeamSpawnedEventArgs ev)
 
 Fires when the last member of a custom team dies.
 
-* Use case: End the round, spawn a reinforcement wave, or announce the defeat.
-* Arguments: `SummonedTeam`.
+* **Use case:** End the round, spawn a reinforcement wave, log stats, or announce the defeat.
+* **Arguments:**
+  * `SummonedTeam`: The team instance that was eliminated.
+  * `TimeSurvived`: A `TimeSpan` indicating how long the team survived since spawning.
 
-```cs
+**Example:**
+
+```csharp
 UCTEvents.TeamEliminated += OnTeamEliminated;
 
 void OnTeamEliminated(TeamEliminatedEventArgs ev)
 {
-    Announcer.Message($"{ev.SummonedTeam.Definition.Name} has been eliminated");
+    string duration = $"{ev.TimeSurvived.Minutes}m {ev.TimeSurvived.Seconds}s";
+    
+    Announcer.Message($"{ev.SummonedTeam.Definition.Name} eliminated after {duration}");
+    Logger.Info($"Team {ev.SummonedTeam.Definition.Name} survived for {ev.TimeSurvived.TotalSeconds} seconds.");
 }
 ```
 
