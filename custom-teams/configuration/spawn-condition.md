@@ -54,8 +54,6 @@ spawn_conditions:
 
 ### &#x20;**Custom Position & Rotation**
 
-Supported Waves: `RoundStarted`, `AfterWarhead`, `AfterDecontamination`, `TeamDependent`, etc.
-
 Note: `NtfWave` and `ChaosWave` use vanilla spawn points by default, so these settings are optional for them.
 
 <table data-header-hidden><thead><tr><th width="249">Key</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>pos_x</code></td><td>float</td><td>The X coordinate of the spawn position.</td></tr><tr><td><code>pos_y</code></td><td>float</td><td>The Y coordinate of the spawn position.</td></tr><tr><td><code>pos_z</code></td><td>float</td><td>The Z coordinate of the spawn position.</td></tr><tr><td><code>rot_x</code></td><td>float</td><td>The X rotation (pitch).</td></tr><tr><td><code>rot_y</code></td><td>float</td><td>The Y rotation (yaw/direction).</td></tr><tr><td><code>rot_z</code></td><td>float</td><td>The Z rotation (roll).</td></tr></tbody></table>
@@ -99,7 +97,7 @@ Triggers when a player uses a specific item.
 
 | **Key**          | **Type** | **Description**                             |
 | ---------------- | -------- | ------------------------------------------- |
-| `used_item`      | string   | The ItemType enum name (e.g., `Medkit`).    |
+| `used_item`      | ItemType | The ItemType enum name (e.g., `Medkit`).    |
 | `custom_item_id` | int      | Alternatively, the ID of a UCI Custom Item. |
 
 Example:
