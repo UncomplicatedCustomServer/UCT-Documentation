@@ -4,9 +4,9 @@ icon: square-poll-vertical
 
 # Enums
 
-Enums are a crucial element of UCT, serving to define configuration logic. They enable you to determine specific conditions, such as spawning a Custom Team upon Warhead detonation versus LCZ Decontamination. Without this system, customization would be minimal.
+Enums are a important element of UCT, serving to define configuration logic. They enable you to determine specific conditions, such as spawning a Custom Team upon Warhead detonation versus LCZ Decontamination. Without this system, customization would be minimal.
 
-**Note:** For Enums like `RoleTypeId` (related to roles), please refer to: (placeholder).
+**Note:** For Enums like `RoleTypeId` (related to roles), please refer to: [Enums](https://app.gitbook.com/s/7dNIcOcinWdoZSPkGHCX/syntax-notions/enums "mention").
 
 Below you will find all Enums used in UCT that are necessary for configuration.
 

@@ -20,7 +20,41 @@ spawn_conditions:
 
 Below is the list of available modules you can use inside the `settings` list, depending on your `spawn_wave`.
 
+#### Base Parameters Explained
 
+* **`spawn_wave`**: The specific event that triggers this team's spawn (e.g., `NtfWave`, `ScpDeath`).
+* **`spawn_delay`**: The time (in seconds) the plugin waits after the trigger event before actually spawning the team.
+* **`settings`**: A dynamic block for extra configurations required by specific wave types (like item IDs, custom positions, or target SCPs).
+
+***
+
+### Mobile Task Force (NtfWave) & Chaos Insurgency (ChaosWave)
+
+Triggers when a standard vanilla respawn wave occurs.
+
+By default, a team will only spawn during the wave type defined in `spawn_wave` (either `NtfWave` or `ChaosWave`) using the team's base `spawn_chance`.
+
+However, you can configure a team to have a chance to spawn during **both** of these vanilla waves by setting `spawn_on_both_waves: true`. When doing this, you can specify separate spawn chances for each wave type using `spawn_chance_ntf` and `spawn_chance_chaos`. These specific chances will override the team's default `spawn_chance`.
+
+> **💡 Note on `spawn_delay`:** > For `NtfWave` and `ChaosWave`, the `spawn_delay` parameter is completely ignored by the plugin. The game engine handles these standard respawn waves instantly, so applying a delay is not supported and will be automatically skipped.
+
+**Example 1: Standard NTF Spawn (Using default team spawn\_chance)**
+
+```yaml
+spawn_conditions:
+  spawn_wave: NtfWave
+  spawn_delay: 0 # Ignored anyway
+```
+
+**Example 2: Spawning on Both Waves with Custom Chances**
+
+```
+spawn_conditions:
+  spawn_wave: NtfWave # Acts as the primary base wave
+  spawn_on_both_waves: true
+  spawn_chance_ntf: 40      # 40% chance to spawn instead of MTF
+  spawn_chance_chaos: 15    # 15% chance to spawn instead of Chaos
+```
 
 ## ⚠️ **Important**: YAML Indentation & Spaces
 

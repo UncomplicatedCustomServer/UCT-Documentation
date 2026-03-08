@@ -103,7 +103,7 @@ void OnSpawn(TeamSpawnedEventArgs ev)
 Later in your plugin, when a kill happens:
 
 ```cs
-public void OnPlayerDying(PlayerDyingEventArgs ev)
+public void OnPlayerDeath(PlayerDeathEventArgs ev)
 {
     Player killer = ev.Attacker;
     SummonedTeam team = killer.GetCustomTeam();

@@ -5,7 +5,7 @@ icon: circle-ellipsis
 # UCT Extensions
 
 UCT integrates additional options into the configuration, allowing you to manage UCR roles more efficiently directly from the Custom Team Config.\
-With this, you can (for example) set role priority, and UCT will spawn Custom Roles according to that priority (`First` = first, `Fifth` = last)."
+With this, you can (for example) set role priority, and UCT will spawn Custom Roles according to that priority (`First` = first, `Fifth` = last).
 
 ## Max Players
 
@@ -32,26 +32,20 @@ Determines whether items are dropped upon the death of this specific Custom Role
 ## Is Godmode Enabled
 
 **Configuration element name:** `is_godmode_enabled` \
-**Type:** `bool`\
-\
-<br>
+**Type:** `bool`
 
 Determines whether this Custom Role has God Mode enabled.
 
 ## Is Bypass Enabled
 
 **Configuration element name:** `is_bypass_enabled` \
-**Type:** `bool`\
-\
-<br>
+**Type:** `bool`
 
 Determines whether this Custom Role has Bypass enabled.
 
 ## Is Noclip Enabled
 
 **Configuration element name:** `is_noclip_enabled` \
-**Type:** `bool`\
-\
-<br>
+**Type:** `bool`
 
 Determines whether this Custom Role has Noclip enabled.

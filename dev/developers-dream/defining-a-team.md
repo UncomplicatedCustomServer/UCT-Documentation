@@ -27,7 +27,7 @@ public void RegisterMyCoolTeam()
             SpawnDelay = 0f
         },
         IsCassieAnnouncementEnabled = true,
-        CassieMessage = "CYBER SQUAD HAS ENTERED",
+        CassieMessage = "cyber team hasentered",
         IsNoisy = true
     };
 
