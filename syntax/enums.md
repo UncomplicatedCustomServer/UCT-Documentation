@@ -36,7 +36,7 @@ Below you will find all Enums used in UCT that are necessary for configuration.
 * ChaosWave - Replaces the Chaos Insurgency spawn wave with this Custom Team.
 * AfterWarhead - Spawns the Custom Team after the Warhead detonates.
 * AfterDecontamination - Spawns the Custom Team after LCZ decontamination.
-* UsedItem - Spawns the Custom Team after a specific item is used. This can be a base game item or an EXILED Custom Item.
+* UsedItem - Spawns the Custom Team after a specific item is used. This can be a base game item, UCI Custom Item or EXILED Custom Item.
 * RoundStarted - Spawns the Custom Team after the round starts.
 * ScpDeath - Spawns the Custom Team after an SCP dies. This can trigger on a specific SCP or the SCP team generally.
 * TeamDependent - The Custom Team spawn depends on another Custom Team. It can spawn either after the other team spawns or after it is eliminated.
