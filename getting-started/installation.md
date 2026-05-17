@@ -7,7 +7,7 @@ icon: display-arrow-down
 ### Requirements
 
 * [UncomplicatedCustomRoles](https://github.com/UncomplicatedCustomServer/UncomplicatedCustomRoles) (LabAPI!) **>= 9.0.0**
-* [AudioPlayerAPI](https://github.com/Killers0992/AudioPlayerApi) (required for custom sound playback)
+* [AudioPlayerAPI](https://github.com/Killers0992/AudioPlayerApi) (optional, but required for custom sound playback)
 
 ### Installation
 
