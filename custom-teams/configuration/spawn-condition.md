@@ -129,10 +129,10 @@ spawn_conditions:
 
 Triggers when a player uses a specific item.
 
-| **Key**          | **Type** | **Description**                             |
-| ---------------- | -------- | ------------------------------------------- |
-| `used_item`      | ItemType | The ItemType enum name (e.g., `Medkit`).    |
-| `custom_item_id` | int      | Alternatively, the ID of a UCI Custom Item. |
+| **Key**          | **Type** | **Description**                                                   |
+| ---------------- | -------- | ----------------------------------------------------------------- |
+| `used_item`      | ItemType | The ItemType enum name (e.g., `Medkit`).                          |
+| `custom_item_id` | int      | Alternatively, the ID of a UCI Custom Item or EXILED Custom Item. |
 
 Example:
 
