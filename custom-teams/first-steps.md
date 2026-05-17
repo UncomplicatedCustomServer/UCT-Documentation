@@ -1,7 +1,7 @@
 ---
 description: >-
-  With UCT you can create Custom Teams for your EXILED server. But what's a
-  Custom Team?
+  With UCT you can create Custom Teams for your server. But what's a Custom
+  Team?
 icon: map-pin
 ---
 
