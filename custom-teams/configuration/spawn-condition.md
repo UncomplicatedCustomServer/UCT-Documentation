@@ -43,6 +43,7 @@ However, you can configure a team to have a chance to spawn during **both** of t
 ```yaml
 spawn_conditions:
   spawn_wave: NtfWave
+  spawn_chance: 100
   spawn_delay: 0 # Ignored anyway
 ```
 
@@ -51,6 +52,7 @@ spawn_conditions:
 ```
 spawn_conditions:
   spawn_wave: NtfWave # Acts as the primary base wave
+  spawn_chance: 100 # Ignored
   spawn_on_both_waves: true
   spawn_chance_ntf: 40      # 40% chance to spawn instead of MTF
   spawn_chance_chaos: 15    # 15% chance to spawn instead of Chaos

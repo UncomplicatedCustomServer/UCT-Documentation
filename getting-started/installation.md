@@ -8,6 +8,7 @@ icon: display-arrow-down
 
 * [UncomplicatedCustomRoles](https://github.com/UncomplicatedCustomServer/UncomplicatedCustomRoles) (LabAPI!) **>= 9.0.0**
 * [AudioPlayerAPI](https://github.com/Killers0992/AudioPlayerApi) (optional, but required for custom sound playback)
+* [SecretLabNAudio](https://github.com/Axwabo/SecretLabNAudio) (optional, but required for custom sound playback)
 
 ### Installation
 

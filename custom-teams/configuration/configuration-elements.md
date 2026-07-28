@@ -70,14 +70,16 @@ Should the Cassie Announcement be enabled? If yes, the Cassie Message **must als
 **Configuration element name:** `cassie_message` \
 **Type:** `string`
 
-The message that will be spoken by CASSIE after this Custom Team spawns.
+The message that will be spoken by CASSIE after this Custom Team spawns.\
+Check [cassie-extensions.md](cassie-extensions.md "mention") for variables.
 
 ## Cassie Translation
 
 **Configuration element name:** `cassie_translation` \
 **Type:** `string`
 
-The translation of the message spoken by CASSIE.
+The translation of the message spoken by CASSIE.\
+Check [cassie-extensions.md](cassie-extensions.md "mention") for variables.
 
 ## Is Noisy
 

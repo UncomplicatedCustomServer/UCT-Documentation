@@ -16,6 +16,7 @@
   * [Win Condition](custom-teams/configuration/win-condition.md)
   * [Sound Paths](custom-teams/configuration/sound-paths.md)
   * [UCT Extensions](custom-teams/configuration/uct-extensions.md)
+  * [Cassie Extensions](custom-teams/configuration/cassie-extensions.md)
 
 ## Syntax
 

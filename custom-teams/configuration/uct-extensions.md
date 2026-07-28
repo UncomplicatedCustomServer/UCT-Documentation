@@ -22,6 +22,13 @@ Specifies the maximum number of players that can spawn as this Custom Role.
 The priority of assigning Custom Role in the Spawn Wave (First -> Fifth).\
 The lower the value, the higher the priority.
 
+## Permission Required
+
+**Configuration element name:** `permissions_required`\
+**Type:**  `List<string>`&#x20;
+
+A list specifying the required permissions a player must have to be able to spawn as this Custom Role. It first checks the group; if it isn't found, it checks the permissions.
+
 ## Drop Inventory On Death
 
 **Configuration element name:** `drop_inventory_on_death` \

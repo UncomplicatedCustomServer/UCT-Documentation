@@ -6,6 +6,7 @@ layout:
   cover:
     visible: true
     size: full
+    mask: none
   title:
     visible: true
   description:
@@ -18,10 +19,14 @@ layout:
     visible: true
   metadata:
     visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Welcome
 
 Welcome to the official [UncomplicatedCustomTeams](https://github.com/UncomplicatedCustomServer/UncomplicatedCustomTeams) documentation page. Here you will learn how the plugin works and how to use it.
 
-**THIS** wiki version is based on version `2.0.0`. Things features from previous versions may not be included!
+**THIS** wiki version is based on version `2.1.0`. Things features from previous versions may not be included!

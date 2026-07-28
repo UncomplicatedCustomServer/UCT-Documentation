@@ -14,6 +14,10 @@ layout:
     visible: true
   metadata:
     visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # What's UCT?
@@ -25,6 +29,6 @@ UncomplicatedCustomTeams allows you to create custom squads that replace the def
 * Create fully customizable respawn teams
 * Define spawn waves, spawn positions, and custom roles
 * Configure Cassie announcements for each team
-* Support for custom audio announcements (requires [AudioPlayerAPI](https://github.com/Killers0992/AudioPlayerApi))
+* Support for custom audio announcements (requires [AudioPlayerAPI](https://github.com/Killers0992/AudioPlayerApi) or [SecretLabNAudio](https://github.com/Axwabo/SecretLabNAudio))
 * Adjustable team spawn chances and player limits
 * Easy configuration through YAML files

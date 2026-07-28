@@ -15,7 +15,7 @@ UCT is compatible with UCR (UncomplicatedCustomRoles); this integration allows r
 
 ## Why mention roles from UCT or UCR?
 
-Since UCT utilizes UCR to register Custom Roles internally, UCT Roles and UCR Roles **must not share the same ID.**
+Since UCT utilizes UCR to register Custom Roles internally, UCT Roles and UCR Roles **must not share the same ID.** However, if you want to import an existing role from UCR to UCT, you simply need to set the UCR role ID in place of the UCT role ID. Remember to also change the role name!
 
 ### Folder structure
 
